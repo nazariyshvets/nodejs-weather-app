@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="icon" href="/img/weather.png" />
+    <link rel="stylesheet" href="/css/styles.css" >
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <form>
+            <input placeholder="Location..." />
+            <button>Submit</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+
+    {{>footer}}
+</body>
+</html>
