@@ -11,10 +11,13 @@
     <div class="main-content">
         {{>header}}
 
-        <form>
-            <input placeholder="Location..." />
-            <button>Submit</button>
-        </form>
+        <div class="form-wrapper">
+            <form>
+                <input placeholder="Location..." />
+                <button>Submit</button>
+            </form>
+            <button id="clf-btn">Get current location forecast</button>
+        </div>
 
         <p id="message-1"></p>
         <p id="message-2"></p>
